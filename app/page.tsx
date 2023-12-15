@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -9,11 +8,17 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
+        <h2>Protocol Specialist</h2>
+        <h2>DAO Designer</h2>
+        <h2>Token Engineer</h2>
+      </div>
+
+      <div className={styles.grid}>
         <a
-          href='https://docs.earth2travis.com/'
+          href="https://docs.earth2travis.com/"
           className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <h2>
             Docs <span>-&gt;</span>
@@ -22,10 +27,10 @@ export default function Home() {
         </a>
 
         <a
-          href='https://blog.earth2travis.com/'
+          href="https://blog.earth2travis.com/"
           className={styles.card}
-          target='_blank'
-          rel='noopener noreferrer'
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <h2>
             Blog <span>-&gt;</span>
