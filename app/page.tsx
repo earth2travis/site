@@ -8,9 +8,9 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        <h2>Protocol Specialist</h2>
         <h2>DAO Designer</h2>
         <h2>Token Engineer</h2>
+        <h2>Protocol Specialist</h2>
       </div>
 
       <div className={styles.grid}>
